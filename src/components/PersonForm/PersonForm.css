@@ -1,0 +1,70 @@
+form{
+    display: grid;
+    grid-template-columns: 0.45fr auto;
+    gap: 1rem;
+}
+
+.formlabel{
+  display: grid;
+  grid-template-columns: 1fr 1fr  ;
+  gap: 1rem;
+
+}
+
+label{
+ display: flex;
+ flex-direction: column;
+}
+
+h2 {
+  color: #11468F;
+  font-weight:700;
+  font-size: 16px;
+}
+
+input{
+  
+  height: 47px;
+  flex-grow: 1;
+  border: 0.5px solid rgba(17, 70, 143, 0.47);
+  border-radius: 6px;
+  color: #999;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 1rem;
+}
+
+input:focus{
+outline-style: none;
+}
+
+
+
+button{
+  width: 220px;
+  height: 47px;
+  color: #fff;
+  border-radius: 6px;
+  background-color: #11468F;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 2.8rem;
+  cursor: pointer;
+}
+
+@media (max-width: 425px) {
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+  .formlabel{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+
+}
+
+}
