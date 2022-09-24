@@ -31,7 +31,7 @@ const Persons = ({persons, setPersons}) => {
             <span>{person.date}</span>
             <img
               onClick={() => handleDelete(person.id)}
-              src="/public/vector/delete.svg"
+              src="/vector/delete.svg"
               alt="delete"
             />
           </div>
